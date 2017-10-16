@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Рандом сериалов</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="/dist/build.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    // TODO: Replace with your project's customized code snippet
+    var config = {
+      apiKey: "AIzaSyA5EBFIs08I6PyaWnjTg0QIvXdR3vPTZQY",
+      authDomain: "random-serials.firebaseapp.com",
+      databaseURL: "https://random-serials.firebaseio.com",
+      projectId: "random-serials",
+      storageBucket: "random-serials.appspot.com",
+      messagingSenderId: "171630560710"
+    };
+    firebase.initializeApp(config);
+  </script>
+</body>
+
+</html>
